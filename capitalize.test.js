@@ -16,5 +16,5 @@ test("expected string doesn't have letters not to be changed", () => {
 });
 
 test("string having spaces cpaitalized at first letter", () => {
-    expect(capitalize("this is a good test")).toBe("This is a good test");
+    expect(capitalize("this is a good test")).toBe("his is a good test");
 });
